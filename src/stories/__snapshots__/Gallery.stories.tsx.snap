@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Gallery _Gallery smoke-test 1`] = `
+<div class="relative p-0 m-0 overflow-hidden">
+  <div class="swiper swiper-initialized swiper-horizontal swiper-watch-progress flex-1 flex items-stretch w-screen relative left-1/2 -translate-x-1/2 !pb-10 swiper-backface-hidden">
+    <div class="swiper-wrapper"
+         style="transition-duration: 0ms; transition-delay: 0ms; transform: translate3d(-324px, 0px, 0px);"
+    >
+      <div class="swiper-slide p-[6px] swiper-slide-visible swiper-slide-prev"
+           data-swiper-slide-index="2"
+           style="width: 632px; margin-right: 16px;"
+      >
+        <img alt
+             loading="lazy"
+             width="0"
+             height="0"
+             decoding="async"
+             data-nimg="1"
+             class="rounded-2xl object-cover w-full"
+             sizes="100vw"
+             srcset="/image.png?w=640&amp;q=75 640w, /image.png?w=750&amp;q=75 750w, /image.png?w=828&amp;q=75 828w, /image.png?w=1080&amp;q=75 1080w, /image.png?w=1200&amp;q=75 1200w, /image.png?w=1920&amp;q=75 1920w, /image.png?w=2048&amp;q=75 2048w, /image.png?w=3840&amp;q=75 3840w"
+             src="/image.png?w=3840&amp;q=75"
+             style="color: transparent;"
+        >
+      </div>
+      <div class="swiper-slide p-[6px] swiper-slide-visible swiper-slide-fully-visible swiper-slide-active"
+           data-swiper-slide-index="0"
+           style="width: 632px; margin-right: 16px;"
+      >
+        <img alt
+             loading="lazy"
+             width="0"
+             height="0"
+             decoding="async"
+             data-nimg="1"
+             class="rounded-2xl object-cover w-full"
+             sizes="100vw"
+             srcset="/image.png?w=640&amp;q=75 640w, /image.png?w=750&amp;q=75 750w, /image.png?w=828&amp;q=75 828w, /image.png?w=1080&amp;q=75 1080w, /image.png?w=1200&amp;q=75 1200w, /image.png?w=1920&amp;q=75 1920w, /image.png?w=2048&amp;q=75 2048w, /image.png?w=3840&amp;q=75 3840w"
+             src="/image.png?w=3840&amp;q=75"
+             style="color: transparent;"
+        >
+      </div>
+      <div class="swiper-slide p-[6px] swiper-slide-visible swiper-slide-next"
+           data-swiper-slide-index="1"
+           style="width: 632px; margin-right: 16px;"
+      >
+        <img alt
+             loading="lazy"
+             width="0"
+             height="0"
+             decoding="async"
+             data-nimg="1"
+             class="rounded-2xl object-cover w-full"
+             sizes="100vw"
+             srcset="/image.png?w=640&amp;q=75 640w, /image.png?w=750&amp;q=75 750w, /image.png?w=828&amp;q=75 828w, /image.png?w=1080&amp;q=75 1080w, /image.png?w=1200&amp;q=75 1200w, /image.png?w=1920&amp;q=75 1920w, /image.png?w=2048&amp;q=75 2048w, /image.png?w=3840&amp;q=75 3840w"
+             src="/image.png?w=3840&amp;q=75"
+             style="color: transparent;"
+        >
+      </div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+      <span class="swiper-pagination-bullet swiper-pagination-bullet-active">
+      </span>
+      <span class="swiper-pagination-bullet">
+      </span>
+      <span class="swiper-pagination-bullet">
+      </span>
+    </div>
+  </div>
+  <section class="absolute top-0 left-0 flex flex-col justify-center w-full h-full">
+    <article class="w-full flex justify-between mx-auto xl:max-w-screen-2xl lg:max-w-screen-xl sm:max-w-screen-md md:max-w-screen-lg sm:py-[80px] py-[48px] px-4 lg:px-8 xl:px-[80px] 2xl:px-[104px]">
+    </article>
+  </section>
+</div>
+`;
