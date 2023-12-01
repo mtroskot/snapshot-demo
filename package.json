@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "test-storybook:ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"yarn build-storybook --quiet && npx serve storybook-static -l 6006\" \"npx wait-on tcp:6006 && yarn test-storybook\""
   },
   "dependencies": {
     "next": "14.0.3",
@@ -31,12 +32,14 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "concurrently": "^8.2.2",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "eslint-plugin-storybook": "^0.6.15",
     "postcss": "^8",
     "storybook": "^7.5.3",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wait-on": "^7.2.0"
   }
 }
